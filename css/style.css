@@ -2,13 +2,13 @@
 
 
 body {
-  background-image: url("../img/sakura.png");
+  background-image: url("../img/dark.png");
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 15px;
   line-height: 1.8;
   letter-spacing: .8px;
   word-break: break-all;
-  color: #333;
+  color: #fff;
 }
 
 a {
@@ -268,6 +268,10 @@ li {
 /*--------------------------------
  WORKS
 ---------------------------------*/
+#works {
+  color: #333;
+}
+
 
 #works .card {
   flex-basis: 31%;
@@ -311,11 +315,20 @@ li {
 /*--------------------------------
  ABOUT
 ---------------------------------*/
+#about .section-title {
+  color: #333;
+}
+
+#about .section-intro {
+  color: #333;
+}
+
 
 #about .section-body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  color: #333;
 }
 
 #about .section-image {
@@ -427,6 +440,10 @@ li {
  CONTACT
 ---------------------------------*/
 
+#contact {
+  color: #333;
+}
+
 #contact .contact-list ul {
   display: flex;
   align-items: flex-end;
@@ -528,6 +545,8 @@ li {
   #header .logo-title {
     font-size: 28px;
     letter-spacing: .16em;
+    transform-origin:center top;
+	  animation:show 1s both;
   }
 
   #header .logo-desc {
