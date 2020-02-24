@@ -155,6 +155,13 @@ li {
   letter-spacing: .2em;
 }
 
+.information {
+  font-size: 8px;
+}
+
+.new-information p {
+  font-size: 13px;
+}
 /*--------------------------------
  グローバルナビ
 ---------------------------------*/
@@ -551,6 +558,14 @@ li {
 
   #header .logo-desc {
     font-size: 11px;
+  }
+
+  #header .information {
+    font-size: 8px;
+  }
+
+  #header .new-information p {
+    font-size: 10px;
   }
 
   #gnav {
