@@ -4,7 +4,7 @@ export default () => {
     if(faSelect[0]) {
         for (var i = 0; i < faSelect.length; i ++) {
             if(faSelect[i]) {
-                alert("プルダウンが" + faSelect.length + "個あります。");
+                alert("name値：" + faSelect[i].name);
                 break;
             }
         }
