@@ -31,4 +31,4 @@ for(var j = 0; j < kotaCard.length; j ++) {
 
 /* 計算式 全体から自分の行った案件の割合を出す。*/
 var fakeisan = tkCount / count * 100;
-alert(Math.floor(fakeisan) + "%");
+alert("今月の案件消化率は" + Math.floor(fakeisan) + "%" + "です。");
